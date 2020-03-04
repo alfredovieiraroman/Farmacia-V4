@@ -1,0 +1,52 @@
+body {
+background-color: rgb(247, 247, 247);
+}
+
+/*#btn {
+background-color: rgb(24, 24, 24);
+border-color: rgb(24, 24, 24);
+}*/
+
+h1 {
+font-size: 20px;
+}
+
+.container {
+padding: 1%;
+}
+
+.container .menu {
+padding: 15%;
+}
+
+.container .menu .virus{
+padding: 3%;
+}
+
+.container .menu .med{
+padding: 3%;
+}
+
+.container .menu .paciente{
+padding: 3%;
+}
+
+.containerIn {
+padding: 15%;
+margin-right: 50%;
+}
+
+/*.container .form-group .form-control {
+background-color: rgb(19, 19, 19);
+color: red;
+}*/
+
+textarea:focus,
+button:focus,
+input:focus,
+select:focus {
+/*border-color:  rgb(0, 132, 255) !important;*/
+outline: 0 !important;
+-webkit-box-shadow: none !important;
+box-shadow: none !important;
+}
